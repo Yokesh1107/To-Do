@@ -2,6 +2,9 @@
   "name": "to-do",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "18.9.0"
+  }
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/react-fontawesome": "^0.1.18",
