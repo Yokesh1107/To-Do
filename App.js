@@ -9,7 +9,7 @@ import './App.css';
 const getLocalStorage=()=>{
   let list=localStorage.getItem("lists");
   if(list){
-    return(list=JSON.parse(localStorage.getItem("lists")))
+    return(JSON.parse(localStorage.getItem("lists")))
   }else{
     return [];
   }
@@ -17,7 +17,7 @@ const getLocalStorage=()=>{
 
 function App() {
 
-  // Tasks (ToDo List) State
+
   const [toDo, setToDo] = useState(getLocalStorage());
 
   // Temp State
