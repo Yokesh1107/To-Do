@@ -9,7 +9,7 @@ import './App.css';
 const getLocalStorage=()=>{
   let list=localStorage.getItem("lists");
   if(list){
-    return(JSON.parse(localStorage.getItem("lists")))
+    return(JSON.parse(list))
   }else{
     return [];
   }
