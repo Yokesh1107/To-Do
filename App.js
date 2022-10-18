@@ -90,7 +90,7 @@ function App() {
     <h2>To-Do List App</h2>
     <br /><br />
 
-    {updateData && updateData ? (
+    {updateData && 1 ? (
       <UpdateForm 
         updateData={updateData}
         changeTask={changeTask}
@@ -107,7 +107,7 @@ function App() {
 
     {/* Display ToDos */}
 
-    {toDo && toDo.length ? '' : 'No Tasks...'}
+    
 
     <ToDo
       toDo={toDo}
